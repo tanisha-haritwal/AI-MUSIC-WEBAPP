@@ -3,3 +3,13 @@ border-radius: 10px;
 border: 5px solid white;
 box-shadow: 3px 3px 3px red;
 }
+.heading{
+width: 100%;
+text-align:center;
+font-size:25px;
+font-weight:bold;
+}
+body{
+background-position: center;
+background-size: cover;
+}
