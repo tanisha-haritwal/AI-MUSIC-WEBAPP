@@ -26,6 +26,14 @@ song1_status= song1.isPlaying();
 song2_status= song2.isPlaying();
 fill("blue");
 stroke("blue");
+if(scorerightWrist > 0.2){
+circle(rightWristX, rightWristY, 20);
+song2.stop();
+if(song1_status == false){
+song1.play();
+document.getElementById("song_name").innerHTML="Song1 is playing";
+}
+}
 if(scoreleftWrist > 0.2){
 circle(leftWristX, leftWristY, 20);
 song1.stop();
